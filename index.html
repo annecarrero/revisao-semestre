@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annely&Alice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Annely&Alice</h1>
+        <nav>
+            <ul>
+                <li><a href="#conteudos">Conteúdos</a></li>
+                <li><a href="#avaliacao">Avaliação</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="conteudos">
+            <h2>Conteúdos Adquiridos em Sala de Aula</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Conteúdo</th>
+                        <th>Descrição</th>
+                        <th>Pontos Positivos</th>
+                        <th>Pontos Negativos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Estruturação básica de páginas web.</td>
+                        <td>Fácil de aprender, essencial para web.</td>
+                        <td>Limitado em termos de funcionalidades dinâmicas.</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Estilização de páginas web.</td>
+                        <td>Permite designs visualmente agradáveis.</td>
+                        <td>Pode ser complexo para designs avançados.</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Linguagem de programação para interatividade.</td>
+                        <td>Flexível e poderoso.</td>
+                        <td>Problemas de compatibilidade entre navegadores.</td>
+                    </tr>
+                    <tr>
+                        <td>Node.js</td>
+                        <td>JavaScript no lado do servidor.</td>
+                        <td>Alta performance, bom para I/O intensivo.</td>
+                        <td>Menos adequado para operações CPU-intensivas.</td>
+                    </tr>
+                    <tr>
+                        <td>Máquina Virtual</td>
+                        <td>Ambiente de desenvolvimento isolado.</td>
+                        <td>Facilita testes e desenvolvimento seguro.</td>
+                        <td>Consome muitos recursos do sistema.</td>
+                    </tr>
+                    <tr>
+                        <td>React Native</td>
+                        <td>Desenvolvimento de apps móveis com JavaScript.</td>
+                        <td>Desenvolvimento rápido e eficiente.</td>
+                        <td>Performance pode ser inferior a apps nativos.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="avaliacao">
+            <h2>Avaliação da Disciplina</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>HTML</th>
+                        <th>CSS</th>
+                        <th>JavaScript</th>
+                        <th>Node.js</th>
+                        <th>Máquina Virtual</th>
+                        <th>React Native</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alice</td>
+                        <td>90%</td>
+                        <td>90%</td>
+                        <td>70%</td>
+                        <td>70%</td>
+                        <td>80%</td>
+                        <td>50%</td>
+                    </tr>
+                    <tr>
+                        <td>Annely</td>
+                        <td>95%</td>
+                        <td>90%</td>
+                        <td>75%</td>
+                        <td>65%</td>
+                        <td>80%</td>
+                        <td>50%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Annely & Alice. Todos os direitos reservados.</p>
+    </footer>
+<style>
+/* Definição geral do corpo */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #56819c;
+    line-height: 1.6;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #56819c;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+/* Estilo da navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #163252;
+}
+
+/* Estilo principal */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo das seções */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #56819c;
+}
+
+/* Estilo das tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #56819c;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo dos parágrafos */
+section p {
+    margin: 10px 0;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #56819c;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo de transição suave */
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #50b3a2;
+}
+
+
+</style>
+    <script>
+       // JavaScript para adicionar funcionalidade de navegação suave
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+ 
+    </script>
+</body>
+</html>
